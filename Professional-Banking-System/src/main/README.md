@@ -88,6 +88,9 @@ pool-1-thread-4 ✅ WITHDRAW: $180.00 from ACC004
    Final Total:   $26000.00
    Difference:     $0.00
    ✅ VERIFICATION PASSED: No money lost or created!
+
+
+
 🔒 Key Concepts Demonstrated
 lock.lock();
 try {
@@ -96,8 +99,9 @@ try {
 } finally {
     lock.unlock(); // Always unlock!
 }
+
 2. Deadlock Prevention
-java
+
 // Lock accounts in consistent order (by hashcode)
 BankAccount first = from;
 BankAccount second = to;
@@ -107,8 +111,9 @@ if (System.identityHashCode(from) > System.identityHashCode(to)) {
 }
 first.lock.lock();
 second.lock.lock();
+
 3. Concurrent Transaction Processing
-java
+
 ExecutorService executor = Executors.newFixedThreadPool(15);
 CountDownLatch latch = new CountDownLatch(200);
 // Submit 200 concurrent transactions
@@ -116,8 +121,10 @@ for (int i = 0; i < 200; i++) {
     executor.submit(new TransactionTask(accounts, latch));
 }
 latch.await(); // Wait for all to complete
+
+
 📁 Project Structure
-text
+
 Professional-Banking-System-Java/
 ├── src/
 │   ├── BankAccount.java          # Core account logic with ReentrantLock
@@ -126,6 +133,8 @@ Professional-Banking-System-Java/
 │   └── SimpleTest.java            # Unit tests
 ├── .gitignore                      # Git ignore rules
 └── README.md                       # This file
+
+
 📊 Transaction Statistics
 The program tracks these metrics in real-time:
 
@@ -135,10 +144,11 @@ Failed Transactions	Attempts rejected due to insufficient funds
 Success Rate	Percentage of successful operations
 Total Money Moved	Sum of all successful transaction amounts
 Money Integrity	Verification that total money remains constant
+
 🧪 Testing
 Run the test suite to verify all functionality:
 
-bash
+
 java SimpleTest
 Test Coverage:
 
@@ -154,7 +164,9 @@ Test Coverage:
 
 ✅ Thread-safe concurrent access
 
+
 🔬 Why This Project Matters
+
 This project demonstrates skills that are critical for financial software development:
 
 Data Integrity - Ensuring money never disappears
@@ -166,6 +178,7 @@ Deadlock Prevention - Avoiding system freezes
 Error Handling - Gracefully managing insufficient funds
 
 Audit Trail - Maintaining complete transaction history
+
 
 🤝 Contributing
 Contributions are welcome! To contribute:
@@ -180,8 +193,10 @@ Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
+
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 👨‍💻 Author
 Poojitha
@@ -208,26 +223,6 @@ Reach out via GitHub discussions
 
 Built with ❤️ for Java Concurrency Enthusiasts 
 
-text
-
----
-
-## ✅ KEY CHANGES MADE:
-
-| Old Version (Your Draft) | New Version (Fixed) |
-|--------------------------|---------------------|
-| `ReentrantReadWriteLock` | `ReentrantLock` ✓ |
-| 500+ transactions | 200+ transactions ✓ |
-| Removed JPMC mention | Clean, professional ✓ |
-| Added code examples | Shows actual implementation ✓ |
-| Better formatting | More readable tables ✓ |
-
----
-
-## 📤 HOW TO UPDATE:
-
-1. Go to your repo: `https://github.com/poojithar1255sse-commits/Professional-Banking-System-Java`
-2. Click on `README.md`
 3. Click the pencil icon (Edit)
 4. Replace everything with the new README above
 5. Click "Commit changes"
