@@ -1,4 +1,4 @@
-# 📄 PROFESSIONAL README.md - Clean & Simple
+
 
 ```markdown
 # Professional Banking System - Java Concurrency Project
