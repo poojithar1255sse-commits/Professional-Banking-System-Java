@@ -223,8 +223,4 @@ Reach out via GitHub discussions
 
 Built with ❤️ for Java Concurrency Enthusiasts 
 
-3. Click the pencil icon (Edit)
-4. Replace everything with the new README above
-5. Click "Commit changes"
 
-Your README now perfectly matches your code! 🎉
