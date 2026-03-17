@@ -1,0 +1,55 @@
+Transaction History for Account: ACC001
+Account Holder: Raj
+============================================================
+2026-03-18 00:41:37 | ACCOUNT_CREATED | $5000.00 | Initial deposit | Balance: $5000.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $184.00 | Transferred $184.00 to ACC002 | Balance: $4816.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $319.00 | Transferred $319.00 to ACC002 | Balance: $4497.00
+2026-03-18 00:41:37 | WITHDRAW     | $728.00 | Withdrew $728.00 | Balance: $3769.00
+2026-03-18 00:41:37 | WITHDRAW     | $801.00 | Withdrew $801.00 | Balance: $2968.00
+2026-03-18 00:41:37 | TRANSFER_IN  | $949.00 | Received $949.00 from ACC002 | Balance: $3917.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $547.00 | Transferred $547.00 to ACC004 | Balance: $3370.00
+2026-03-18 00:41:37 | DEPOSIT      | $276.00 | Deposited $276.00 | Balance: $3646.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $901.00 | Transferred $901.00 to ACC003 | Balance: $2745.00
+2026-03-18 00:41:37 | DEPOSIT      | $800.00 | Deposited $800.00 | Balance: $3545.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $746.00 | Transferred $746.00 to ACC003 | Balance: $2799.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $111.00 | Transferred $111.00 to ACC005 | Balance: $2688.00
+2026-03-18 00:41:37 | WITHDRAW     | $244.00 | Withdrew $244.00 | Balance: $2444.00
+2026-03-18 00:41:37 | DEPOSIT      | $179.00 | Deposited $179.00 | Balance: $2623.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $594.00 | Transferred $594.00 to ACC005 | Balance: $2029.00
+2026-03-18 00:41:37 | WITHDRAW     | $161.00 | Withdrew $161.00 | Balance: $1868.00
+2026-03-18 00:41:37 | WITHDRAW     | $723.00 | Withdrew $723.00 | Balance: $1145.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $575.00 | Transferred $575.00 to ACC002 | Balance: $570.00
+2026-03-18 00:41:37 | TRANSFER_IN  | $656.00 | Received $656.00 from ACC003 | Balance: $1226.00
+2026-03-18 00:41:37 | TRANSFER_IN  | $416.00 | Received $416.00 from ACC003 | Balance: $1642.00
+2026-03-18 00:41:37 | TRANSFER_IN  | $130.00 | Received $130.00 from ACC003 | Balance: $1772.00
+2026-03-18 00:41:37 | WITHDRAW     | $213.00 | Withdrew $213.00 | Balance: $1559.00
+2026-03-18 00:41:37 | DEPOSIT      | $822.00 | Deposited $822.00 | Balance: $2381.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $493.00 | Transferred $493.00 to ACC005 | Balance: $1888.00
+2026-03-18 00:41:37 | TRANSFER_IN  | $298.00 | Received $298.00 from ACC004 | Balance: $2186.00
+2026-03-18 00:41:37 | DEPOSIT      | $930.00 | Deposited $930.00 | Balance: $3116.00
+2026-03-18 00:41:37 | WITHDRAW     | $883.00 | Withdrew $883.00 | Balance: $2233.00
+2026-03-18 00:41:37 | DEPOSIT      | $227.00 | Deposited $227.00 | Balance: $2460.00
+2026-03-18 00:41:37 | DEPOSIT      | $771.00 | Deposited $771.00 | Balance: $3231.00
+2026-03-18 00:41:37 | TRANSFER_IN  | $655.00 | Received $655.00 from ACC004 | Balance: $3886.00
+2026-03-18 00:41:37 | TRANSFER_IN  | $777.00 | Received $777.00 from ACC005 | Balance: $4663.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $708.00 | Transferred $708.00 to ACC002 | Balance: $3955.00
+2026-03-18 00:41:37 | WITHDRAW     | $264.00 | Withdrew $264.00 | Balance: $3691.00
+2026-03-18 00:41:37 | WITHDRAW     | $831.00 | Withdrew $831.00 | Balance: $2860.00
+2026-03-18 00:41:37 | TRANSFER_OUT | $275.00 | Transferred $275.00 to ACC003 | Balance: $2585.00
+2026-03-18 00:41:37 | WITHDRAW     | $910.00 | Withdrew $910.00 | Balance: $1675.00
+2026-03-18 00:41:37 | WITHDRAW     | $667.00 | Withdrew $667.00 | Balance: $1008.00
+2026-03-18 00:41:37 | WITHDRAW     | $220.00 | Withdrew $220.00 | Balance: $788.00
+2026-03-18 00:41:37 | WITHDRAW     | $706.00 | Withdrew $706.00 | Balance: $82.00
+2026-03-18 00:41:37 | TRANSFER_FAILED | $248.00 | Insufficient funds | Balance: $82.00
+2026-03-18 00:41:37 | TRANSFER_FAILED | $396.00 | Insufficient funds | Balance: $82.00
+2026-03-18 00:41:37 | TRANSFER_FAILED | $702.00 | Insufficient funds | Balance: $82.00
+2026-03-18 00:41:37 | TRANSFER_FAILED | $134.00 | Insufficient funds | Balance: $82.00
+2026-03-18 00:41:37 | WITHDRAW_FAILED | $532.00 | Insufficient funds | Balance: $82.00
+2026-03-18 00:41:37 | WITHDRAW_FAILED | $586.00 | Insufficient funds | Balance: $82.00
+2026-03-18 00:41:37 | WITHDRAW_FAILED | $816.00 | Insufficient funds | Balance: $82.00
+2026-03-18 00:41:37 | TRANSFER_FAILED | $536.00 | Insufficient funds | Balance: $82.00
+2026-03-18 00:41:37 | DEPOSIT      | $832.00 | Deposited $832.00 | Balance: $914.00
+2026-03-18 00:41:37 | WITHDRAW     | $557.00 | Withdrew $557.00 | Balance: $357.00
+2026-03-18 00:41:37 | DEPOSIT      | $610.00 | Deposited $610.00 | Balance: $967.00
+============================================================
+Current Balance: $967.0
