@@ -50,7 +50,9 @@ java EnhancedBankSystem
 
 # Run tests
 java SimpleTest
-Sample Output
+
+
+### Sample Output
 ======================================================================
   PROFESSIONAL BANKING SYSTEM
 ======================================================================
@@ -91,7 +93,7 @@ pool-1-thread-4 ✅ WITHDRAW: $180.00 from ACC004
 
 
 
-🔒 Key Concepts Demonstrated
+##🔒 Key Concepts Demonstrated
 lock.lock();
 try {
     // Critical section - only one thread at a time
@@ -123,7 +125,7 @@ for (int i = 0; i < 200; i++) {
 latch.await(); // Wait for all to complete
 
 
-📁 Project Structure
+###📁 Project Structure
 
 Professional-Banking-System-Java/
 ├── src/
@@ -135,7 +137,7 @@ Professional-Banking-System-Java/
 └── README.md                       # This file
 
 
-📊 Transaction Statistics
+###📊 Transaction Statistics
 The program tracks these metrics in real-time:
 
 Statistic	Description
@@ -145,7 +147,7 @@ Success Rate	Percentage of successful operations
 Total Money Moved	Sum of all successful transaction amounts
 Money Integrity	Verification that total money remains constant
 
-🧪 Testing
+###🧪 Testing
 Run the test suite to verify all functionality:
 
 
@@ -165,7 +167,7 @@ Test Coverage:
 ✅ Thread-safe concurrent access
 
 
-🔬 Why This Project Matters
+##🔬 Why This Project Matters
 
 This project demonstrates skills that are critical for financial software development:
 
@@ -180,7 +182,7 @@ Error Handling - Gracefully managing insufficient funds
 Audit Trail - Maintaining complete transaction history
 
 
-🤝 Contributing
+###🤝 Contributing
 Contributions are welcome! To contribute:
 
 Fork the repository
@@ -194,18 +196,18 @@ Push to the branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
 
-📝 License
+###📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-👨‍💻 Author
+###👨‍💻 Author
 Poojitha
 
 GitHub: @poojithar1255sse-commits
 
 Project Link: https://github.com/poojithar1255sse-commits/Professional-Banking-System-Java
 
-⭐ Show Your Support
+###⭐ Show Your Support
 If you found this project helpful for learning Java concurrency:
 
 Give it a ⭐ on GitHub
@@ -214,13 +216,13 @@ Share it with friends preparing for interviews
 
 Fork it and add your own features
 
-📬 Contact & Questions
+##📬 Contact & Questions
 For questions, suggestions, or feedback:
 
-Open an issue on GitHub
+#Open an issue on GitHub
 
-Reach out via GitHub discussions
+#Reach out via GitHub discussions
 
-Built with ❤️ for Java Concurrency Enthusiasts 
+#Built with ❤️ for Java Concurrency Enthusiasts 
 
 
